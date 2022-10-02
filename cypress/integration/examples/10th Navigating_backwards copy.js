@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("My Tenth Test Case", () => {
+describe("My Tenth Test Case - Navigating backwards and forwards", () => {
   it("Navigating backwards and forwards", () => {
     cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
     cy.get("#opentab").invoke("removeAttr", "target").click();

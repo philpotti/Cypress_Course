@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("My Sixth Test Case", () => {
+describe("My Sixth Test Case - Visibility & Invisibility verification", () => {
   it("Visibility & Invisibility verification", () => {
     cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
     cy.get("#displayed-text").should("be.visible");

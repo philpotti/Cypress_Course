@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("My Fifth Test Case", () => {
+describe("My Fifth Test Case - Dynamic dropdown validation", () => {
   it("Dynamic dropdown validation", () => {
     cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
     cy.get("#autocomplete").type("ind");

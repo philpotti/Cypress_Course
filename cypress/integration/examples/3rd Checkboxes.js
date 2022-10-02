@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("My Third Test Case", () => {
+describe("My Third Test Case - First Checkbox", () => {
   it("First Checkbox", () => {
     cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
     // .check() clicks on a checkbox

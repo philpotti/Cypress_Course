@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("My Eighth Test Case", () => {
+describe("My Eighth Test Case - Alerts validations", () => {
   it("Alerts validations", () => {
     cy.visit("https://rahulshettyacademy.com/AutomationPractice/");
     cy.get("#alertbtn").click();

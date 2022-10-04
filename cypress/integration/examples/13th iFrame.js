@@ -1,3 +1,5 @@
+// in cypress/support/index.ts
+// load type definitions that come with Cypress module
 /// <reference types="Cypress" />
 /// <reference types="cypress-iframe" />
 import "cypress-iframe";
